@@ -1,0 +1,99 @@
+body{
+    background: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    margin-left: 400px;
+    align-items: center;
+    margin-right: 400px;
+
+}
+h1{
+    font-size: 50px;
+    font-weight: 400px;
+    align-items: center;
+    text-transform: uppercase;
+    margin-top: 100px;
+    align-items: center;
+   
+    
+}
+h3{
+    font-size: 15px;
+    font-weight: 200px;
+    align-items: center;
+    text-transform: uppercase;
+    margin-top: 10px;
+    align-items: center;
+}
+ul {
+    list-style-type: none; /* Quita los puntos de la lista */
+    padding: 0; /* Elimina el padding predeterminado */
+}
+
+button {
+    background-color: #e9f3f2; /* Color de fondo del botón */
+    color: rgb(23, 22, 22); /* Color del texto */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Relleno del botón */
+    text-align: center; /* Centrar el texto */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block; /* Mostrar en línea */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400px;
+    font-size: 16px; /* Tamaño de la fuente */
+    border-radius: 25px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s ease; /* Efecto de transición para el fondo */
+    margin-left: 200px;
+    margin-bottom: 10px;
+}
+
+button2 {
+    background-color: #e9f3f2; /* Color de fondo del botón */
+    color: rgb(23, 22, 22); /* Color del texto */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Relleno del botón */
+    text-align: center; /* Centrar el texto */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block; /* Mostrar en línea */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400px;
+    font-size: 16px; /* Tamaño de la fuente */
+    border-radius: 25px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s ease; /* Efecto de transición para el fondo */
+    margin-left: 200px;
+}
+a{
+    align-items: center;
+}
+
+button:hover {
+    background-color: #1d72cd; /* Color de fondo al pasar el mouse */
+    color: #e9f3f2;
+}
+img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin-left: 100px;
+
+}
+
+cite{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.map-container {
+    width: 100%; /* Ancho completo del contenedor */
+    max-width: 600px; /* Ancho máximo del contenedor */
+    margin: 20px 0; /* Espacio arriba y abajo */
+   /
+}
+
+iframe {
+    width: 100%; /* Ancho completo del iframe */
+    height: 300px; /* Altura del iframe */
+    border: 0; /* Sin borde en el iframe */
+}
